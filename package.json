@@ -1,0 +1,20 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "play:test": "npx playwright test",
+    "play:ui": "npx playwright test --ui",
+    "play:debug": "npx playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12",
+    "pg": "^8.11.5"
+  }
+}
