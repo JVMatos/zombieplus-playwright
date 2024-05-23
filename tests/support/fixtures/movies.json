@@ -15,13 +15,13 @@
       "featured": false,
       "cover": "/covers/movies/madrugada.jpg"
     },
-    "resident_evil_o_hospede_maldito": {
+    "to_remove": {
       "title": "Resident Evil: O Hóspede Maldito",
       "overview": "Uma equipe militar deve combater uma inteligência artificial e zumbis famintos após um acidente em um laboratório subterrâneo.",
-      "company": "Screen Gems",
+      "company": "Columbia Pictures",
       "release_year": 2002,
       "featured": false,
-      "cover": "/images/resident_evil.png"
+      "cover": "/covers/movies/resident-evil.png"
     },
     "zumbilandia": {
       "title": "Zumbilândia",
