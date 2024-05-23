@@ -4,16 +4,16 @@
       "overview": "Um ex-investigador da ONU, Gerry Lane, viaja o mundo em uma corrida contra o tempo para parar uma pandemia zumbi que está derrubando exércitos e governos, e ameaçando dizimar a própria humanidade.",
       "company": "Paramount Pictures",
       "release_year": 2013,
-      "featured": false,
-      "cover": "/images/war_world_z.png"
+      "featured": true,
+      "cover": "/covers/movies/wwz.png"
     },
-    "madrugada_dos_mortos": {
+    "duplicate": {
       "title": "Madrugada dos Mortos",
       "overview": "Um grupo de sobreviventes se refugia em um shopping center enquanto o mundo é tomado por zumbis famintos.",
       "company": "Universal Pictures",
       "release_year": 2004,
       "featured": false,
-      "cover": "/images/dawn_of_the_dead.png"
+      "cover": "/covers/movies/madrugada.jpg"
     },
     "resident_evil_o_hospede_maldito": {
       "title": "Resident Evil: O Hóspede Maldito",
