@@ -13,7 +13,7 @@ test('Deve cadastrar um novo filme', async ({ page }) => {
     await page.popup.haveText(`O filme '${movie.title}' foi adicionado ao catálogo.`)
 })
 
-test('Deve excluir um filme', async ({ page, request })=>{
+test('Deve excluir um filme', async ({ page, request }) => {
     const movie = data.to_remove
     await executeSQL(`DELETE from movies WHERE title = '${movie.title}'`)
     await request.api.postMovie(movie)
@@ -42,5 +42,18 @@ test('Não deve cadastrar com campos obrigatórios em branco', async ({ page }) 
         'Campo obrigatório',
         'Campo obrigatório',
         'Campo obrigatório',
-        'Campo obrigatório'])
+        'Campo obrigatório'
+    ])
+})
+
+test('Deve realizar busca pelo termo zumbi', async ({ page, request }) => {
+    const movies = data.search
+    movies.data.forEach(async (m) => {
+        await executeSQL(`DELETE from movies WHERE title = '${m.title}'`)
+        await request.api.postMovie(m)
+    })
+
+    await page.login.do('admin@zombieplus.com', 'pwd123', 'Admin')
+    await page.movies.search(movies.input)
+    await page.movies.tableHave(movies.outputs)
 })

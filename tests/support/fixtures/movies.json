@@ -1,83 +1,60 @@
 {
-    "create": {
-      "title": "Guerra Mundial Z",
-      "overview": "Um ex-investigador da ONU, Gerry Lane, viaja o mundo em uma corrida contra o tempo para parar uma pandemia zumbi que está derrubando exércitos e governos, e ameaçando dizimar a própria humanidade.",
-      "company": "Paramount Pictures",
-      "release_year": 2013,
-      "featured": true,
-      "cover": "/covers/movies/wwz.png"
-    },
-    "duplicate": {
-      "title": "Madrugada dos Mortos",
-      "overview": "Um grupo de sobreviventes se refugia em um shopping center enquanto o mundo é tomado por zumbis famintos.",
-      "company": "Universal Pictures",
-      "release_year": 2004,
-      "featured": false,
-      "cover": "/covers/movies/madrugada.jpg"
-    },
-    "to_remove": {
-      "title": "Resident Evil: O Hóspede Maldito",
-      "overview": "Uma equipe militar deve combater uma inteligência artificial e zumbis famintos após um acidente em um laboratório subterrâneo.",
-      "company": "Columbia Pictures",
-      "release_year": 2002,
-      "featured": false,
-      "cover": "/covers/movies/resident-evil.png"
-    },
-    "zumbilandia": {
-      "title": "Zumbilândia",
-      "overview": "Em um mundo pós-apocalíptico, quatro sobreviventes se unem para viajar pelo sudoeste dos Estados Unidos em busca de um lugar seguro.",
-      "company": "Columbia Pictures",
-      "release_year": 2009,
-      "featured": false,
-      "cover": "/images/zombieland.png"
-    },
-    "exterminio": {
-      "title": "Extermínio",
-      "overview": "Um grupo de sobreviventes na Grã-Bretanha luta para sobreviver após um vírus altamente contagioso transformar a maior parte da população em assassinos selvagens.",
-      "company": "Fox Searchlight Pictures",
-      "release_year": 2002,
-      "featured": false,
-      "cover": "/images/28_days_later.png"
-    },
-    "a_noite_dos_mortos_vivos": {
-      "title": "A Noite dos Mortos-Vivos",
-      "overview": "Sete pessoas ficam presas em uma casa de fazenda isolada enquanto os mortos-vivos começam a cercá-la.",
-      "company": "The Walter Reade Organization",
-      "release_year": 1968,
-      "featured": false,
-      "cover": "/images/night_of_the_living_dead.png"
-    },
-    "shaun_of_the_dead": {
-      "title": "Shaun of the Dead",
-      "overview": "Shaun e seu melhor amigo, Ed, tentam sobreviver a um apocalipse zumbi e salvar seus entes queridos.",
-      "company": "Rogue Pictures",
-      "release_year": 2004,
-      "featured": false,
-      "cover": "/images/shaun_of_the_dead.png"
-    },
-    "rec": {
-      "title": "[REC]",
-      "overview": "Uma repórter e seu cinegrafista ficam presos em um prédio enquanto tentam cobrir um surto de zumbis em Barcelona.",
-      "company": "Filmax",
-      "release_year": 2007,
-      "featured": false,
-      "cover": "/images/rec.png"
-    },
-    "a_volta_dos_mortos_vivos": {
-      "title": "A Volta dos Mortos-Vivos",
-      "overview": "Um grupo de adolescentes e trabalhadores de uma funerária enfrentam uma infestação de zumbis depois que um gás experimental é liberado.",
-      "company": "Orion Pictures",
-      "release_year": 1985,
-      "featured": false,
-      "cover": "/images/return_of_the_living_dead.png"
-    },
-    "exterminio_2": {
-      "title": "Extermínio 2",
-      "overview": "Seis meses após o vírus da raiva dizimar a Grã-Bretanha, o exército dos Estados Unidos ajuda a garantir uma área segura em Londres, mas não demora muito para que o vírus reapareça.",
-      "company": "Fox Atomic",
-      "release_year": 2007,
-      "featured": false,
-      "cover": "/images/28_weeks_later.png"
-    }
+  "create": {
+    "title": "Guerra Mundial Z",
+    "overview": "Um ex-investigador da ONU, Gerry Lane, viaja o mundo em uma corrida contra o tempo para parar uma pandemia zumbi que está derrubando exércitos e governos, e ameaçando dizimar a própria humanidade.",
+    "company": "Paramount Pictures",
+    "release_year": 2013,
+    "featured": true,
+    "cover": "/covers/movies/wwz.png"
+  },
+  "duplicate": {
+    "title": "Madrugada dos Mortos",
+    "overview": "Um grupo de sobreviventes se refugia em um shopping center enquanto o mundo é tomado por zumbis famintos.",
+    "company": "Universal Pictures",
+    "release_year": 2004,
+    "featured": false,
+    "cover": "/covers/movies/madrugada.jpg"
+  },
+  "to_remove": {
+    "title": "Resident Evil: O Hóspede Maldito",
+    "overview": "Uma equipe militar deve combater uma inteligência artificial e zumbis famintos após um acidente em um laboratório subterrâneo.",
+    "company": "Columbia Pictures",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "/covers/movies/resident-evil.png"
+  },
+  "search": {
+    "input": "zumbi",
+    "outputs": [
+      "Meu Namorado é um Zumbi",
+      "Zumbilândia",
+      "Orgulho e Preconceito e Zumbis"
+    ],
+    "data": [
+      {
+        "title": "Zumbilândia",
+        "overview": "Em um mundo pós-apocalíptico, quatro sobreviventes se unem para viajar pelo sudoeste dos Estados Unidos em busca de um lugar seguro.",
+        "company": "Columbia Pictures",
+        "release_year": 2009,
+        "featured": false,
+        "cover": "/covers/movies/zumbilandia.png"
+      },
+      {
+        "title": "Orgulho e Preconceito e Zumbis",
+        "overview": "Elizabeth Bennet e suas irmãs lutam contra zumbis enquanto navegam pelas complexidades da sociedade e relacionamentos na Inglaterra do século XIX.",
+        "company": "Fox Entertainment",
+        "release_year": 2016,
+        "featured": false,
+        "cover": "/covers/movies/opz.png"
+      },
+      {
+        "title": "Meu Namorado é um Zumbi",
+        "overview": "Em um mundo pós-apocalíptico, um zumbi diferente dos outros forma um vínculo com uma jovem, desencadeando uma série de eventos que podem transformar o mundo dos mortos-vivos.",
+        "company": "Sony Pictures",
+        "release_year": 2013,
+        "featured": false,
+        "cover": "/covers/movies/warm-bodies.png"
+      }
+    ]
   }
-  
+}
